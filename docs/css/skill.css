@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    background-color: #15284b;
+    color: whitesmoke;
+  } 
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+  }
+  .logo {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .navmenu {
+    display: flex;
+  }
+  .navmenu a {
+    display: inline-block;
+    margin: 0 1.5rem;
+    color: whitesmoke;
+    font-weight: 500;
+    transform: all 0.6s;
+  }
+  .navmenu a:hover {
+    transform: translateY(-5px);
+  }
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+/*--------------------------------------------------*/
+  .skill-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+padding: 20px;
+}
+
+.skill {
+background-color: #f7f7f2;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+}
+
+.skill img {
+width: 80px;
+height: 80px;
+margin-bottom: 10px;
+}
+p {
+  color: black;
+}
+h2 {
+  color: black;
+}
+h3{ 
+color: whitesmoke;
+}
+.anata {
+color: whitesmoke;
+}
